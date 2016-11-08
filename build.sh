@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Install dependencies (debbootstrap)
-sudo apt-get install debootstrap curl
+sudo apt-get install -yqq debootstrap curl
 
 # -----------------------------------------------------------------------------
 # BUILD/LABEL VARIABLES
